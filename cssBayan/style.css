@@ -1,0 +1,30 @@
+body {
+    font-family: "Roboto";
+    font-size: 1.5em;
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+}
+
+.meme-img {
+    width: 20em;
+    height: 20em;
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.title_for_bayan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
