@@ -11,9 +11,21 @@ body {
 }
 
 .meme-img {
+    display: none;
     width: 20em;
     height: 20em;
     align-self: center;
+}
+
+.meme-img-1,.meme-img-2,.meme-img-3,.meme-img-4,.meme-img-5{
+    display: none;
+    width: 20em;
+    height: 20em;
+    align-self: center;
+}
+
+input[type = "radio"]{
+    display: none;
 }
 
 .container {
@@ -28,3 +40,19 @@ body {
     justify-content: space-between;
 }
 
+
+#bayan1:checked ~ .container > .meme-img-1{
+    display: flex;
+}
+#bayan2:checked ~ .container > .meme-img-2{
+    display: flex;
+}
+#bayan3:checked ~ .container > .meme-img-3{
+    display: flex;
+}
+#bayan4:checked ~ .container > .meme-img-4{
+    display: flex;
+}
+#bayan5:checked ~ .container > .meme-img-5{
+    display: flex;
+}
