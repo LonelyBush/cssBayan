@@ -19,6 +19,7 @@ body {
     gap: 1em;
     cursor: pointer;
     color: red;
+    width: 70%;
 }
 
 label {
@@ -75,55 +76,55 @@ input[type = "radio"]{
 
 #bayan1:checked ~ .container > .meme-img-1 {
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 } 
 #bayan2:checked ~ .container > .meme-img-2{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 #bayan3:checked ~ .container > .meme-img-3{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 #bayan4:checked ~ .container > .meme-img-4{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 #bayan5:checked ~ .container > .meme-img-5{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 
 
 #bayan1:hover ~ .container > .meme-img-1{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 } 
 #bayan2:hover ~ .container > .meme-img-2{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 #bayan3:hover ~ .container > .meme-img-3{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 #bayan4:hover ~ .container > .meme-img-4{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 #bayan5:hover ~ .container > .meme-img-5{
     display: flex;
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 30em;
 }
 
 
@@ -279,4 +280,131 @@ color: black
     
 .main_content:hover .plus-sigh {
     display: flex;
+}
+
+
+@media(max-width: 820px) {
+    body{
+        font-size: 0.9em;
+    }
+
+    .main_content{
+        width: 80%;
+    }
+
+    #bayan1:checked ~ .container > .meme-img-1 {
+        display: flex;
+        width: 25em;
+        height: 25em;
+    } 
+    #bayan2:checked ~ .container > .meme-img-2{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan3:checked ~ .container > .meme-img-3{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan4:checked ~ .container > .meme-img-4{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan5:checked ~ .container > .meme-img-5{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    
+    
+    #bayan1:hover ~ .container > .meme-img-1{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    } 
+    #bayan2:hover ~ .container > .meme-img-2{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan3:hover ~ .container > .meme-img-3{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan4:hover ~ .container > .meme-img-4{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan5:hover ~ .container > .meme-img-5{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+}
+
+@media (max-width: 500px){
+
+    body{
+        font-size: 0.8em;
+    }
+    .main_content{
+        width: 100%;
+    }
+
+    #bayan1:checked ~ .container > .meme-img-1 {
+        display: flex;
+        width: 20em;
+        height: 20em;
+    } 
+    #bayan2:checked ~ .container > .meme-img-2{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan3:checked ~ .container > .meme-img-3{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan4:checked ~ .container > .meme-img-4{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan5:checked ~ .container > .meme-img-5{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    
+    
+    #bayan1:hover ~ .container > .meme-img-1{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    } 
+    #bayan2:hover ~ .container > .meme-img-2{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan3:hover ~ .container > .meme-img-3{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan4:hover ~ .container > .meme-img-4{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan5:hover ~ .container > .meme-img-5{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
 }
