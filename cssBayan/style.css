@@ -182,102 +182,81 @@ color: black
 
 
 
-.cross-sigh {
-    display: none;
-}
 
 .plus-sigh{
     display: none;
 }
 
 #bayan1:checked ~ .container > .title_for_bayan_1 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;
   }
 
 #bayan2:checked ~ .container > .title_for_bayan_2 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;
   }
 
 #bayan3:checked ~ .container > .title_for_bayan_3 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;  
   }
 
 #bayan4:checked ~ .container > .title_for_bayan_4 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;  
   }
 
 #bayan5:checked ~ .container > .title_for_bayan_5 > .plus-sigh{
-  display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;  
 }
 
 
 
-#bayan1:checked ~ .container > .title_for_bayan_1 > .cross-sigh{
-    display: flex;  
-  }
 
-#bayan2:checked ~ .container > .title_for_bayan_2 > .cross-sigh{
-    display: flex; 
-  }
-
-#bayan3:checked ~ .container > .title_for_bayan_3 > .cross-sigh{
-    display: flex; 
-  }
-
-#bayan4:checked ~ .container > .title_for_bayan_4 > .cross-sigh{
-    display: flex;   
-  }
-
-#bayan5:checked ~ .container > .title_for_bayan_5 > .cross-sigh{
-    display: flex;  
-}
 
 
 /**/
 
 
 #bayan1:hover ~ .container > .title_for_bayan_1 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;
   }
 
 #bayan2:hover ~ .container > .title_for_bayan_2 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out; 
   }
 
 #bayan3:hover ~ .container > .title_for_bayan_3 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;
   }
 
 #bayan4:hover~ .container > .title_for_bayan_4 > .plus-sigh{
-    display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;  
   }
 
 #bayan5:hover ~ .container > .title_for_bayan_5 > .plus-sigh{
-  display: none;  
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out; 
 }
 
 
 
-#bayan1:hover ~ .container > .title_for_bayan_1 > .cross-sigh{
-    display: flex;  
-  }
-
-#bayan2:hover ~ .container > .title_for_bayan_2 > .cross-sigh{
-    display: flex; 
-  }
-
-#bayan3:hover ~ .container > .title_for_bayan_3 > .cross-sigh{
-    display: flex; 
-  }
-
-#bayan4:hover ~ .container > .title_for_bayan_4 > .cross-sigh{
-    display: flex;   
-  }
-
-#bayan5:hover ~ .container > .title_for_bayan_5 > .cross-sigh{
-    display: flex;  
-}
-    
 .main_content:hover .plus-sigh {
     display: flex;
 }
