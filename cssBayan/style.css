@@ -1,0 +1,410 @@
+body {
+    font-family: "Roboto";
+    font-size: 1em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets_pic/background.png);
+   
+
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fef9c7;
+    border-radius: 2%;
+    padding: 0.5em;
+    gap: 1em;
+    cursor: pointer;
+    color: red;
+    width: 70%;
+}
+
+label {
+    cursor: pointer;
+}
+
+.meme-img {
+    display: none;
+    width: 20em;
+    height: 20em;
+    align-self: center;
+    
+}
+
+.meme-img-1,.meme-img-2,
+.meme-img-3,
+.meme-img-4,
+.meme-img-5{
+    width: 0em;
+    height: 0em;
+    align-self: center;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type = "radio"]{
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 2%;
+    padding: 0.5em;
+   
+}
+
+
+.title_for_bayan_1, 
+.title_for_bayan_2, 
+.title_for_bayan_3, 
+.title_for_bayan_4, 
+.title_for_bayan_5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    color: red;
+    
+}
+
+
+#bayan1:checked ~ .container > .meme-img-1 {
+    display: flex;
+    width: 30em;
+    height: 30em;
+} 
+#bayan2:checked ~ .container > .meme-img-2{
+    display: flex;
+    width: 30em;
+    height: 30em;
+}
+#bayan3:checked ~ .container > .meme-img-3{
+    display: flex;
+    width: 30em;
+    height: 30em;
+}
+#bayan4:checked ~ .container > .meme-img-4{
+    display: flex;
+    width: 30em;
+    height: 30em;
+}
+#bayan5:checked ~ .container > .meme-img-5{
+    display: flex;
+    width: 30em;
+    height: 30em;
+}
+
+
+
+
+
+#bayan1:checked ~ .container >.title_for_bayan_1{
+color: black
+}
+
+#bayan2:checked ~ .container >.title_for_bayan_2{
+    color: black
+}
+
+#bayan3:checked ~ .container >.title_for_bayan_3{
+    color: black
+}
+
+#bayan4:checked ~ .container >.title_for_bayan_4{
+    color: black
+}
+
+#bayan5:checked ~ .container >.title_for_bayan_5{
+    color: black
+}
+
+
+
+
+
+
+
+
+
+
+
+.plus-sigh{
+    display: none;
+}
+
+#bayan1:checked ~ .container > .title_for_bayan_1 > .plus-sigh{
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;
+  }
+
+#bayan2:checked ~ .container > .title_for_bayan_2 > .plus-sigh{
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;
+  }
+
+#bayan3:checked ~ .container > .title_for_bayan_3 > .plus-sigh{
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;  
+  }
+
+#bayan4:checked ~ .container > .title_for_bayan_4 > .plus-sigh{
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;  
+  }
+
+#bayan5:checked ~ .container > .title_for_bayan_5 > .plus-sigh{
+    display: flex;
+    transform: rotate(45deg);  
+    transition: all 0.1s ease-in-out;  
+}
+
+
+
+
+
+
+/**/
+
+
+
+
+
+@media(max-width: 820px) {
+    body{
+        font-size: 0.9em;
+    }
+
+    .main_content{
+        width: 80%;
+    }
+
+    #bayan1:checked ~ .container > .meme-img-1 {
+        display: flex;
+        width: 25em;
+        height: 25em;
+    } 
+    #bayan2:checked ~ .container > .meme-img-2{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan3:checked ~ .container > .meme-img-3{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan4:checked ~ .container > .meme-img-4{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    #bayan5:checked ~ .container > .meme-img-5{
+        display: flex;
+        width: 25em;
+        height: 25em;
+    }
+    
+    
+    
+}
+
+@media (max-width: 500px){
+
+    body{
+        font-size: 0.8em;
+    }
+    .main_content{
+        width: 100%;
+    }
+
+    #bayan1:checked ~ .container > .meme-img-1 {
+        display: flex;
+        width: 20em;
+        height: 20em;
+    } 
+    #bayan2:checked ~ .container > .meme-img-2{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan3:checked ~ .container > .meme-img-3{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan4:checked ~ .container > .meme-img-4{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    #bayan5:checked ~ .container > .meme-img-5{
+        display: flex;
+        width: 20em;
+        height: 20em;
+    }
+    
+    
+   
+}
+
+
+@media (hover: hover){
+    .container:hover {
+        background-color: #fce181;
+    }
+
+    #bayan1:hover ~ .container > .meme-img-1{
+        display: flex;
+        width: 30em;
+        height: 30em;
+    } 
+    #bayan2:hover ~ .container > .meme-img-2{
+        display: flex;
+        width: 30em;
+        height: 30em;
+    }
+    #bayan3:hover ~ .container > .meme-img-3{
+        display: flex;
+        width: 30em;
+        height: 30em;
+    }
+    #bayan4:hover ~ .container > .meme-img-4{
+        display: flex;
+        width: 30em;
+        height: 30em;
+    }
+    #bayan5:hover ~ .container > .meme-img-5{
+        display: flex;
+        width: 30em;
+        height: 30em;
+    }
+
+    #bayan1:hover ~ .container >.title_for_bayan_1{
+        color: black
+        }
+        
+        #bayan2:hover ~ .container >.title_for_bayan_2{
+            color: black
+        }
+        
+        #bayan3:hover ~ .container >.title_for_bayan_3{
+            color: black
+        }
+        
+        #bayan4:hover ~ .container >.title_for_bayan_4{
+            color: black
+        }
+        
+        #bayan5:hover ~ .container >.title_for_bayan_5{
+            color: black
+        }
+    
+    .main_content:hover h2 {
+        color: black
+    }
+    .main_content:hover p {
+        color: black
+    }
+
+
+    #bayan1:hover ~ .container > .title_for_bayan_1 > .plus-sigh{
+        display: flex;
+        transform: rotate(45deg);  
+        transition: all 0.1s ease-in-out;
+      }
+    
+    #bayan2:hover ~ .container > .title_for_bayan_2 > .plus-sigh{
+        display: flex;
+        transform: rotate(45deg);  
+        transition: all 0.1s ease-in-out; 
+      }
+    
+    #bayan3:hover ~ .container > .title_for_bayan_3 > .plus-sigh{
+        display: flex;
+        transform: rotate(45deg);  
+        transition: all 0.1s ease-in-out;
+      }
+    
+    #bayan4:hover~ .container > .title_for_bayan_4 > .plus-sigh{
+        display: flex;
+        transform: rotate(45deg);  
+        transition: all 0.1s ease-in-out;  
+      }
+    
+    #bayan5:hover ~ .container > .title_for_bayan_5 > .plus-sigh{
+        display: flex;
+        transform: rotate(45deg);  
+        transition: all 0.1s ease-in-out; 
+    }
+    
+    
+    
+    .main_content:hover .plus-sigh {
+        display: flex;
+    }
+
+
+    @media (max-width:820px){
+        #bayan1:hover ~ .container > .meme-img-1{
+            display: flex;
+            width: 25em;
+            height: 25em;
+        } 
+        #bayan2:hover ~ .container > .meme-img-2{
+            display: flex;
+            width: 25em;
+            height: 25em;
+        }
+        #bayan3:hover ~ .container > .meme-img-3{
+            display: flex;
+            width: 25em;
+            height: 25em;
+        }
+        #bayan4:hover ~ .container > .meme-img-4{
+            display: flex;
+            width: 25em;
+            height: 25em;
+        }
+        #bayan5:hover ~ .container > .meme-img-5{
+            display: flex;
+            width: 25em;
+            height: 25em;
+        }
+    }
+
+    @media (max-width:500px){
+        #bayan1:hover ~ .container > .meme-img-1{
+            display: flex;
+            width: 20em;
+            height: 20em;
+        } 
+        #bayan2:hover ~ .container > .meme-img-2{
+            display: flex;
+            width: 20em;
+            height: 20em;
+        }
+        #bayan3:hover ~ .container > .meme-img-3{
+            display: flex;
+            width: 20em;
+            height: 20em;
+        }
+        #bayan4:hover ~ .container > .meme-img-4{
+            display: flex;
+            width: 20em;
+            height: 20em;
+        }
+        #bayan5:hover ~ .container > .meme-img-5{
+            display: flex;
+            width: 20em;
+            height: 20em;
+        }
+    }
+}
